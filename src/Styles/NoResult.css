@@ -1,0 +1,30 @@
+.container-no {
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid black; */
+}
+.no-result-text{
+    font-size: 2rem;
+    font-family: 'Tilt Prism', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.392);
+    height: 40%;
+    border-radius: 0.5rem;
+    /* border: 1px solid black; */
+}
+.repopulate{
+    width: 10rem;
+    height: 2rem;
+    background-color: rgba(0, 0, 0, 0.271);
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: center;
+}

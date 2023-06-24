@@ -1,0 +1,26 @@
+.br {
+    border-radius: 8px;  
+  }
+  .w80 {
+     width: 80%;
+  }
+  .card {
+    border: 2px solid #fff;
+    box-shadow:0px 0px 10px 0 #a9a9a9;
+    padding: 30px 40px;
+    width: 80%;
+    margin: 50px auto;
+  }
+  
+  .profilePic {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+  }
+  .comment {
+    height: 10px;
+    background: #777;
+    margin-top: 20px;
+  }
+  
+ 

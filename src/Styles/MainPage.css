@@ -1,0 +1,48 @@
+.container {
+    height: 84vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+.single-main{
+    height: 10rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.392);
+
+    /* border: 1px solid black; */
+}
+.page-id{
+    position: relative;
+    left: 13.5rem;
+    bottom: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid black; */
+}
+.page-image{
+    position: relative;
+    bottom: 1rem;
+    left: 1rem;
+    width: 85%;
+    height: 80%;
+    border-radius: 0.5rem;
+
+    border: 1px solid rgba(0, 0, 0, 0.264);
+}
+.page-name{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+
+    /* border: 1px solid black; */
+}
