@@ -38,7 +38,7 @@ function repopulate(){
 }
 function serachForData(searchParam){
     const mySearchList = listData.data.filter((searchSort)=>{
-        return searchSort.first_name?.toLowerCase() == searchParam.toLowerCase();
+        return searchSort.first_name?.toLowerCase() === searchParam.toLowerCase();
     }) 
     setPageData(mySearchList);
 }
